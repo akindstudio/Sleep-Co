@@ -39,7 +39,6 @@ body{
     color: white;
 }
 
-
 .tall-50 {min-height: 50vh;}
 .tall-60 {min-height: 60vh;}
 .tall-70 {min-height: 70vh;}
@@ -75,8 +74,8 @@ body{
 .text-center    { text-align: center;}
 .text-right     { text-align: right;}
 
-.font-weight-light {font-weight: 200;}
-.font-weight-normal {font-weight: normal;}
+.font-weight-light      {font-weight: 200;}
+.font-weight-normal     {font-weight: normal;}
 .font-weight-extra-bold {font-weight: 800;}
 
 h3{
@@ -104,6 +103,10 @@ a{
     text-decoration: none;
     border-bottom: 1px solid;}
 
+header a{
+    color: white;
+}
+
 a:hover{
     color:#FFBE00
 }
@@ -112,7 +115,7 @@ a:hover{
 /* header & footer styles */
 
 header{
-    background-image: url('/images/sleep-co-bed-white.jpg');
+    background: rgb(5, 10, 39);
     background-size: cover;
     background-position: center;
 }
@@ -121,6 +124,13 @@ header h3 {
 font-size: 5.5rem;
 line-height: 1;
 }
+
+header a {
+    border: none;
+    padding-left: 10%;
+}
+
+
 
 footer a{
     border: none;
@@ -139,6 +149,10 @@ footer a{
     background-image: url('/images/sleep-co-bed-yellow.jpg');
     background-position: 50% 61%;
 }
+
+.bg-sheets {
+    background-image: url('/images/sleep-co-bed-white.jpg');
+    background-position: 50% 50%;}
 
 
 /* Icon grid */ 
