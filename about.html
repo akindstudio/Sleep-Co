@@ -1,73 +1,35 @@
-<!DOCTYPE html>
-<html>
-
-<!------------------- head-------------->
-<head>
-    <!-- title -->
-    <title>About The Sleep Co</title>
-
-    <!-- viewport meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font awesome link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- gridlex link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-    
-    <!-- google fonts catamaran 200,400,500,800   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
+---
+layout: default
+---
 
 
+    {% include header-nav.html %}
 
+    <!--  About intro-->
+    <section>
+        <h2>This is us!</h2>
+        <p>We are a small company trying to change the world</p>
+    </section>
 
-
-    <!-- css link -->
-    <link href="style.css" rel="stylesheet" >
-</head>
-
-
-
-<!--------------------body--------------->
-<body>
-
-    <header class="grid">
-        <div class="col-4-middle padded">
-          <a href="/">
-            <h2> The Sleep Co </h2>
-          </a>
+    <!-- features section -->
+    <section class="padded grid bg-dark">
+        <div class="padded-sm col-12 text-center">
+            <h2><span class="featured-text">things</span> to know about us</h2>
         </div>
-
-        <nav class="col-8-middle padded text-right">
-         <a href="/index.html"> Home </a>
-         <a href="/products.html"> Products </a>
-         <a href="/contact.html"> Contact </a>
-         </nav>
-    </header>
-
-
-
-
-
-
-
-    <!-- footer -->
-    <footer class="padded grid-spaceBetween bg-dark">
-        <div class="col-4-bottom">
-         <h2>let's <br><span class="featured-text">connect</span></h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos saepe voluptate. Quo tempore minima voluptatem omnis error corporis a obcaecati veritatis recusandae. Reprehenderit laborum nostrum aliquam iure consequuntur deleniti.</p>
+        <div class="padded-sm col-3_sm-6 xxs-stack">
+            <i class="fa-solid fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque quo temporibus aliquid debitis fuga sunt ducimus, qui dolorem neque voluptatem saepe quasi omnis sed. Aut impedit inventore at eveniet!</p>
         </div>
-        
-        <div class="col-5-bottom">
-            <p><strong>Call:</strong> <a href="tel:#"> 04 555 5555</a> </p>
-            <p><strong>E-Mail:</strong><a href="mailto:#"> hello@thesleep.co</a></p>
-            <p><strong>Store:</strong> 55 Main St, Chicago</p>
-            <p><strong>Instagram:</strong> <a href="https:/www.instagram/thesleepco"> @thesleepco</a></p>
+        <div class="padded-sm col-3_sm-6 xxs-stack">
+            <i class="fa-solid fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque quo temporibus aliquid debitis fuga sunt ducimus, qui dolorem neque voluptatem saepe quasi omnis sed. Aut impedit inventore at eveniet!</p>
         </div>
-    </footer>
-
-
-</body>
-</html>
+        <div class="padded-sm col-3_sm-6 xxs-stack">
+            <i class="fa-solid fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque quo temporibus aliquid debitis fuga sunt ducimus, qui dolorem neque voluptatem saepe quasi omnis sed. Aut impedit inventore at eveniet!</p>
+        </div>
+        <div class="padded-sm col-3_sm-6 xxs-stack"> 
+            <i class="fa-solid fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque quo temporibus aliquid debitis fuga sunt ducimus, qui dolorem neque voluptatem saepe quasi omnis sed. Aut impedit inventore at eveniet!</p>
+        </div>
+    </section>
